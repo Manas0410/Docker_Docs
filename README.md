@@ -19,3 +19,19 @@ Docker is an open-source platform designed to automate the deployment, scaling, 
 6. **Storage Volumes**: Docker can manage storage volumes and mount points required by applications to store and access persistent data.
 
 7. **Third-Party Services and APIs**: Docker containers can interact with external services and APIs required by applications, such as authentication services, payment gateways, messaging queues, etc.
+
+# Docker vs Git
+
+## Docker
+
+- **Purpose**: Docker is a platform for developing, shipping, and running applications in containers.
+- **Functionality**: It packages applications and dependencies into containers for consistent deployment across different environments.
+- **Benefits**: Ensures application behavior consistency and simplifies deployment processes.
+
+## Git
+
+- **Purpose**: Git is a version control system for tracking changes in source code during software development.
+- **Functionality**: It enables collaboration among multiple developers by managing changes to source code over time.
+- **Benefits**: Facilitates tracking changes, merging code from different contributors, and reverting to previous versions if needed.
+
+In Summary, Docker focuses on application packaging and deployment, while Git handles version control and collaboration on source code.
