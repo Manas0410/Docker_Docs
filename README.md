@@ -36,7 +36,7 @@ Docker is an open-source platform designed to automate the deployment, scaling, 
 
 In Summary, Docker focuses on application packaging and deployment, while Git handles version control and collaboration on source code.
 
-# Tis Project : Simple Node/Express API with Docker
+# This Project : Simple Node/Express API with Docker
 
 This project is a simple Node.js/Express API aimed at learning Docker.
 
