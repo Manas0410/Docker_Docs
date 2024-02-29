@@ -57,11 +57,24 @@ Follow these steps to set up the project:
      ```
    
 # how to build and and run docker image locally
-Terminal command 
-1 command to create docker image 
-docker build -t basic-app3:v2 . 
+1. **Build the Image:**
 
-2 command to run docker image 
+   - Open a terminal or command prompt.
+   - Navigate to the directory containing the `Dockerfile`.
+   - Run the following command:
+
+     ```bash
+     docker build -t <image>:<version> 
+     ```
+
+2. **Run the Image:**
+
+   - Run the following command to run the image:
+
+     ```bash
+     docker run --name <container-name> -p <port>:<port> <image>:<version>
+     ```
+
 
 # Docker Image Management
 
