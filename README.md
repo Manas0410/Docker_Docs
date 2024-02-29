@@ -48,8 +48,14 @@ Follow these steps to set up the project:
   ```
   "git clone https://github.com/Manas0410/Docker_Docs.git"
   ```
-- **Install Dependencies**: ```"npm install"```
-- **Start the Server**:   ```  "npm run start" ```
+- **Install Dependencies**:
+- ```
+- "npm install"
+- ```
+- **Start the Server**:
+- ```
+- "npm run start"
+-  ```
    
 # how to build and and run docker image locally
 Terminal command 
