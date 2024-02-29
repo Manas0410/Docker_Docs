@@ -51,13 +51,41 @@ Follow these steps to set up the project:
 # There are two way to create docker imange - via terminal or docker destop
 Terminal command 
 docker build -t basic-app3:v2 . 
-# how to push to doc hub
-1.first create repository in docker hub then run below commond
-1.1. docker login
-1.2. docker build -t sanskratiagrawal306/container-image .
-1.3. docker push sanskratiagrawal306/container-image
-1.4 pull image from hub
-    docker pull sanskratiagrawal306/container-image
+
+# Docker Image Management
+
+This repository contains instructions for managing Docker images on Docker Hub.
+
+## Steps
+
+1. **Create Repository in Docker Hub**: 
+   - Go to [Docker Hub](https://hub.docker.com/) and sign in or sign up.
+   - Create a new repository by clicking on the "Create Repository" button.
+   - Follow the prompts to set up your repository.
+
+2. **Build and Push Docker Image**:
+   - Log in to Docker Hub using the following command:
+     ```
+     docker login
+     ```
+   - Build the Docker image using the following command:
+     ```
+     docker build -t yourusername/imagename .
+     ```
+   - Push the Docker image to Docker Hub using the following command:
+     ```
+     docker push yourusername/imagename
+     ```
+
+3. **Pull Image from Docker Hub**:
+   - To pull the image from Docker Hub, use the following command:
+     ```
+     docker pull yourusername/imagename
+     ```
+
+## Usage
+- Modify the commands above as needed for your specific Docker image and repository names.
+- Ensure you have Docker installed and configured on your system before running the commands.
 # share img
 1. if image is public direct share url.
 
