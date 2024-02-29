@@ -47,6 +47,19 @@ Follow these steps to set up the project:
 1. **Clone the Repository**:  =>   "git clone https://github.com/Manas0410/Docker_Docs.git" 
 2. **Install Dependencies**:  =>   "npm install"
 3. **Start the Server**:      =>   "npm run start"
+   
+# There are two way to create docker imange - via terminal or docker destop
+Terminal command 
+docker build -t basic-app3:v2 . 
+# how to push to doc hub
+1.first create repository in docker hub then run below commond
+1.1. docker login
+1.2. docker build -t sanskratiagrawal306/container-image .
+1.3. docker push sanskratiagrawal306/container-image
+1.4 pull image from hub
+    docker pull sanskratiagrawal306/container-image
+# share img
+1. if image is public direct share url.
 
 
 
