@@ -43,21 +43,18 @@ This project is a simple Node.js/Express API aimed at learning Docker.
 ## Setup Instructions
 
 Follow these steps to set up the project:
-- **Clone the Repository**:
-
-  ```
-  "git clone https://github.com/Manas0410/Docker_Docs.git"
-  ```
-  
-- **Install Dependencies**:
-  ```
-- "npm install"
-  ```
-  
-- **Start the Server**:
-  ```
-- "npm run start"
-  ```
+   - 1 Clone the Repository:
+     ```
+     docker login
+     ```
+   - 2 Install Dependencies:
+     ```
+     docker build -t yourusername/imagename .
+     ```
+   - 3 Start the Server:
+     ```
+     docker push yourusername/imagename
+     ```
    
 # how to build and and run docker image locally
 Terminal command 
