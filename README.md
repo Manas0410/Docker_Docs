@@ -56,9 +56,9 @@ Follow these steps to set up the project:
      npm run start
      ```
    
+# how to build and and run docker image locally
 `To know how to create docker file => Check dockerfile in code`
 
-# how to build and and run docker image locally
 
 1. **Build the Image:**
 
