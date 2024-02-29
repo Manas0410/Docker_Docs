@@ -49,11 +49,11 @@ Follow these steps to set up the project:
   "git clone https://github.com/Manas0410/Docker_Docs.git"
   ```
 - **Install Dependencies**:
- ```
+  ```
 - "npm install"
- ```
+  ```
 - **Start the Server**:
- ```
+  ```
 - "npm run start"
   ```
    
