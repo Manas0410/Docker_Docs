@@ -48,9 +48,12 @@ Follow these steps to set up the project:
 2. **Install Dependencies**:  =>   "npm install"
 3. **Start the Server**:      =>   "npm run start"
    
-# There are two way to create docker imange - via terminal or docker destop
+# how to build and and run docker image locally
 Terminal command 
+1 command to create docker image 
 docker build -t basic-app3:v2 . 
+
+2 command to run docker image 
 
 # Docker Image Management
 
