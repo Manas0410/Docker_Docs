@@ -57,6 +57,9 @@ Follow these steps to set up the project:
      ```
    
 # how to build and and run docker image locally
+
+## To know how to create docker file => Check dockerfile in code
+
 1. **Build the Image:**
 
    - Open a terminal or command prompt.
